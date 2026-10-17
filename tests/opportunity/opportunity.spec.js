@@ -55,7 +55,7 @@ test ('opportunity', async({page}) => {
 
 });
 
-test.only('opportunity with pom and ddt',async ({page})  =>{
+test('opportunity with pom and ddt',async ({page})  =>{
     test.slow
     let signin = new login
     await signin.launch(loginData.url)

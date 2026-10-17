@@ -46,7 +46,7 @@ test ('lead',async ({page}) => {
     
   })
 
-  test.only('lead with pom and ddt',async ({page}) => {
+  test('lead with pom and ddt',async ({page}) => {
     test.slow
     let signin = new login(page)
     await signin.launch(loginData.url)

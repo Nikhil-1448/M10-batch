@@ -1,7 +1,6 @@
 import { expect } from '@playwright/test'
 
 export class contact{
-    #contact
     #contact    
     #createcontact
     #salutationtype

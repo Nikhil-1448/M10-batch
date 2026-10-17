@@ -2,7 +2,7 @@ import {test} from '@playwright/test'
 import  loginData from '../../testdata/login.json'
 import  contactData from '../../testdata/contact.json'
 import { login } from '../../pages/login';
-import { contact } from '../../pages/contact';
+import { contact } from '../../pages/contact.js';
 
 
 // test ('contact', async({page}) => {

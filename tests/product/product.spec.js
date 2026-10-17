@@ -50,7 +50,7 @@ test ('product with ddt', async({page}) => {
 
 })
 
-test.only('product with ddt and pom',async({page}) => {
+test('product with ddt and pom',async({page}) => {
     test.slow
     let signin = new login(page)
     await signin.launch(loginData.url)
