@@ -2,6 +2,7 @@ import { expect } from "@playwright/test";
 
 export class invoice{
     #More
+    #More
     #invoice
     #createinvoice
     #subject
