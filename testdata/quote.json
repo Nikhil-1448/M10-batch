@@ -1,0 +1,12 @@
+{
+    "subject":"Test quote",
+    "validtill":"2026-10-03",
+    "bill_street":"test billing address",
+    "ship_street":"test shipping address",
+    "productName1":"testproduct",
+    "qty1":"5",
+    "listPrice1":"100",
+    "productName2":"testproduct2",
+    "qty2":"10",
+    "listPrice2":"200"
+}
